@@ -301,7 +301,7 @@ ul {
     font-size: 36px;
     line-height: 1;
     color: var(--hero-text-color);
-    width: 320px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1327,6 +1327,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin-bottom: 284px;
 }
 
 .mobile-menu .link {
@@ -1407,4 +1408,8 @@ ul {
   position: absolute;
   top: 24px;
   right: 24px;
+}
+
+.socials-list-mobile {
+  justify-content: start;
 }
